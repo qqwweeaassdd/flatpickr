@@ -671,7 +671,7 @@ flatpickr.init = function (element, instanceConfig) {
 
         self.input.dispatchEvent(clickEvt);
         if (self.config.onChange)
-            self.config.onChange(self.selectedDateObj, self.input.value);
+            self.config.onChange(self.input, self.selectedDateObj, self.input.value);
 
     };
 
